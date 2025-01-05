@@ -68,7 +68,7 @@ Smuggler at a minimum requires either a URL via the -u/--url argument or a list 
 If the URL specifies `https://` then Smuggler will connect to the host:port using SSL/TLS. If the URL specifies `http://`
 then no SSL/TLS will be used at all. If only the host is specified, then the script will default to `https://`.
 
-You have to set a `TELEGRAM_TOKEN` and `CHAT_ID` in `send_telegram_notification(text)` function if you wanna get vulnerability notofications during the scan:
+You have to set a `TELEGRAM_TOKEN` and a `CHAT_ID` in `send_telegram_notification(text)` function if you wanna get vulnerability notifications during the scan:
 ```python
 def send_telegram_notification(text):
 	TELEGRAM_TOKEN = '876567809:uythgjiiuygjkuiyghjujygbnjyghbyffso'
