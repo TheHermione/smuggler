@@ -1,7 +1,7 @@
 # Smuggler
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/TheHermione/smuggler/issues)
 
-![изображение](https://github.com/user-attachments/assets/c770f48c-a857-439d-97f5-ed9b867be236)
+![изображение](logo.png)
 
 It's a little bit upgraded fork of an HTTP Request Smuggling/Desync testing [tool](https://github.com/defparam/smuggler) written in Python 3 by [@defparam](https://github.com/defparam/). 
 
